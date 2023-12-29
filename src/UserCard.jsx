@@ -43,7 +43,7 @@ function UserCard() {
             <p><span className='fw-bold fs-6'>Job Title :</span>{item.company.department}</p>
             <p><span className='fw-bold fs-6'>Company : </span>{item.company.name} </p>
             <p><span className='fw-bold fs-6'>Home Address :</span>{item.address.address} </p>
-            <p><span className='fw-bold fs-6'>Birth Date :</span>{item.birthdate}</p>
+            <p><span className='fw-bold fs-6'>Birth Date :</span>{item.birthDate}</p>
             <p><span className='fw-bold fs-6'>Age : </span>{item.age} </p>
             <p><span className='fw-bold fs-6'>Email:</span>{item.email} </p>
             <p><span className='fw-bold fs-6'>Mobile Number:</span>{item.phone}</p>
